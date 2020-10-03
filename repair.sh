@@ -5,7 +5,7 @@ sudo rm /etc/apt/sources.list
 sudo cp sources.list /etc/apt/sources.list
 
 #Updating apt.
-sudo apt-get update
+sudo apt-get update -y
 
 #add transport-https package 
-sudo apt install apt-transport-https
+sudo apt install apt-transport-https -y
